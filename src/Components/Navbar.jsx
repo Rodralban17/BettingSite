@@ -94,7 +94,7 @@ export default function Navbar() {
             </div>
 
             {/* Auth Buttons */}
-            <div className="hidden lg:flex items-center gap-2">
+            {/* <div className="hidden lg:flex items-center gap-2">
               <Link
                 to="/login"
                 className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors"
@@ -107,7 +107,7 @@ export default function Navbar() {
               >
                 <UserPlus size={15} /> Get Started
               </Link>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Toggle */}
             <button

@@ -5,6 +5,12 @@ import {
 } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
+import FreeTips from "./Pages/FreeTips";
+import VIPPredictions from "./Pages/VIPPredictions";
+import Payment from "./Pages/Payment";
+import Results from "./Pages/Result";
+import Login from "./Pages/Login";
+import Contact from "./Pages/Contact";
 const App = () =>{
   const router = createBrowserRouter([
     {
@@ -15,46 +21,30 @@ const App = () =>{
           path: "/",
           element: <HomePage/>,
         },
-        // {
-        //   path: "/track-package",
-        //   element: <TrackingPage/>,
-        // },
-        // {
-        //   path: "/about-us",
-        //   element: <AboutUsPage/>,
-        // },
-        // {
-        //   path: "/services/air-freight",
-        //   element: <AirFreightPage/>,
-        // },
-        // {
-        //   path: "/services/sea-freight",
-        //   element: <SeaFreightPage/>,
-        // },
-        // {
-        //   path: "/services/road-freight",
-        //   element: <RoadFreightPage/>,
-        // },
-        // {
-        //   path: "/services/train-freight",
-        //   element: <TrainFreightPage/>,
-        // },
-        // {
-        //   path: "/services/smart-warehousing",
-        //   element: <SmartWarehousingPage/>,
-        // },
-        // {
-        //   path: "/login",
-        //   element: <LoginPage/>,
-        // },
-        // {
-        //   path: "/register",
-        //   element: <RegisterPage/>,
-        // },
-        // {
-        //   path: "/contact-us",
-        //   element: <ContactUsPage/>,
-        // }
+        {
+          path: "/free-tips",
+          element: <FreeTips/>,
+        },
+        {
+          path: "/vip",
+          element: <VIPPredictions/>,
+        },
+        {
+          path: "/payment",
+          element: <Payment/>,
+        },
+       {
+        path: "/results",
+        element: <Results/>,
+       },
+       {
+        path: "/login",
+        element: <Login/>,
+       },
+       {
+        path: "/contact",
+        element: <Contact/>,
+       }
       ]
     },
     // {
