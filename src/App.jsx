@@ -4,16 +4,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./Pages/Layout";
+import HomePage from "./Pages/HomePage";
 const App = () =>{
   const router = createBrowserRouter([
     {
       path: '/',
       element: <Layout/>,
       children:[
-        // {
-        //   path: "/",
-        //   element: <HomePage/>,
-        // },
+        {
+          path: "/",
+          element: <HomePage/>,
+        },
         // {
         //   path: "/track-package",
         //   element: <TrackingPage/>,

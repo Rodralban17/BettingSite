@@ -1,7 +1,7 @@
 import  React, {useContext, useEffect, useState } from 'react'
-// import { Navigate, Outlet } from 'react-router-dom'
-// import Navbar from '../Components/Navbar';
-// import Footer from '../Components/Footer';
+ import { Navigate, Outlet } from 'react-router-dom'
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 // import FloatingActionContact from '../Components/FloatingActionContact';
 // import ScrollToTop from '../Components/ScrollToTop';
 // import ProtectedRoute from '../lib/ProtectedRoute.jsx';
@@ -12,11 +12,12 @@ const Layout = () =>{
         <div className='min-h-screen bg-gray-50'>
             {/* <ScrollToTop/>
             <Navbar/> */}
+            <Navbar/>
        <div className='content'>
-        {/* <Outlet/> */}
+        <Outlet/>
        </div>
        <div className='top-5'>
-        {/* <Footer/> */}
+        <Footer/>
        </div>
        {/* <FloatingActionContact/> */}
      </div>
