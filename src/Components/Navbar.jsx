@@ -152,7 +152,7 @@ export default function Navbar() {
                   </Link>
                 );
               })}
-              <div className="grid grid-cols-2 gap-2 pt-2 mt-2 border-t border-[#1A3055]">
+              {/* <div className="grid grid-cols-2 gap-2 pt-2 mt-2 border-t border-[#1A3055]">
                 <Link
                   to="/login"
                   className="flex items-center justify-center gap-2 py-2.5 border border-[#1A3055] rounded-xl text-sm font-medium text-gray-300 hover:text-white hover:border-[#F0B429]/30 transition-all"
@@ -165,7 +165,7 @@ export default function Navbar() {
                 >
                   <UserPlus size={15} /> Register
                 </Link>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         )}

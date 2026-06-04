@@ -265,8 +265,8 @@ export default function Contact() {
 
         {/* Contact form + info grid */}
         <div className="grid lg:grid-cols-5 gap-8 mb-12">
-          {/* Form */}
-          <motion.div
+          
+          {/* <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -378,7 +378,7 @@ export default function Contact() {
                 </motion.form>
               )}
             </AnimatePresence>
-          </motion.div>
+          </motion.div> */}
 
           {/* Info sidebar */}
           <motion.div
